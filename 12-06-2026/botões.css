@@ -1,0 +1,9 @@
+.meu-botao
+{
+    background-color: aqua;
+    color: aliceblue;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
