@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Praticando comandos em JavaScript</h1>
+
+    <script>
+        var instituição = "Senai"
+        console.log(instituição);
+
+        var a = 1;
+        var b = 2;
+        var c = a+b;
+
+        console.log(a);
+        console.log(b);
+        console.log(c);
+
+        var i = 0;
+        while (i<10){
+            console.log(i)
+            i++;
+            // é o mesmo que: i + 1
+        }
+    </script>
+
+    <script>
+        for (var i = 0; i < 10; i++) {
+            console.log(i);
+        }
+
+        var clientes = ['tp', 'tr', 'vp'];
+        
+        for (var i = 0; i < clientes.length; i++){
+            console.log(clientes[i])
+        }
+    </script>
+
+    <script>
+        var idade = 18
+        if (idade >= 16){
+            console.log("Você pode dirigir");
+        } 
+        else {
+            console.log("Você não pode dirigir");
+        }
+
+        var ensinoMédio = true;
+        var faculdade = true;
+
+        if (ensinoMédio){
+            console.log("Você tem direito de desconto de 60%");
+        } else if (faculdade) {
+            console.log("Você tem direito de desconto de 40%");
+        }else {
+            console.log("Você tem direito de desconto de 20%");
+        }
+    </script>
+</body>
+</html>
