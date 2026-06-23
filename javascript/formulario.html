@@ -1,21 +1,61 @@
- <fieldset>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Formulario</title>
+</head>
+<body>
+     <h1>Formulario</h1>
+
+     <fieldset>
      <legend>Dados pessoais</legend>
-     <label>Nome:<input type="text" name="nome" /></label><br />
-     <label>Idade:<input type="text" name="idade" /></label><br />
-</fieldset>
-<fieldset>
-     <legend>Dados profissionais</legend>
-     <label>Escolaridade:
-     <select name="escolaridade">
-          <option value="em"> Ensino Médio </option>
-          <option value="nt"> Nível Técnico </option>
-          <option value="ns"> Nível Superior </option>
+     <label>Nome: <input type="text" name="Nome"></label><br>
+     <label>Idade: <input type="text" name="Idade"></label><br>
+     <label>Cidade: <input type="text" name="Cidade"></label><br>
+     <label>Estado</label>
+     <select name="Estado">
+          <option value="AC">Acre</option>
+          <option value="AM">Amazonas</option>
+          <option value="RO">Rondonia</option>
+     </select>
+     </fieldset>
+
+     <fieldset>
+     <legend>Dados Profissionais</legend>
+     <label>Escolaridade
+     <select name="Escolaridade">
+          <option value="em">Ensino Médio</option>
+          <option value="nt">Nível Técnico</option>
+          <option value="ns">Nível Superior</option>
      </select>
      </label>
-     <br />
-     <label>Área de atuação
+     <br>
+     
+     <label>Natureza do Cargo
           <input type="radio" name="cargo" value="1" checked> Gerência
-          <input type="radio" name="cargo" value="2" > Financeiro
-          <input type="radio" name="cargo" value="3" > Recepção
+          <input type="radio" name="cargo" value="2" checked> Financeiro
+          <input type="radio" name="cargo" value="3" checked> Recepção
+          <input type="radio" name="cargo" value="4" checked> Administrativo
+          <input type="radio" name="cargo" value="5" checked> Juridico
+          <br><br>
+
+          Área de Interesse
+          <input type="radio" name="cargo" value="1" checked/> Computação
+               <input type="radio" name="cargo" value="2" checked/> Biologia
+               <input type="radio" name="cargo" value="3" checked/> Meio Ambiente
+               <input type="radio" name="cargo" value="4" checked/> Engenharia
+               <input type="radio" name="cargo" value="5" checked/> História
+
+          <p>Mini Curriculo: <textarea name="min" cols="20" rows="5"></textarea></p>
      </label>
-</fieldset>
+
+
+
+
+
+
+
+     </fieldset>
+</body>
+</html>
